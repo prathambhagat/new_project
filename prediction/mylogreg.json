@@ -1,0 +1,7 @@
+{
+    "C": 1.0,
+    "max_iter": 100,
+    "solver": "liblinear",
+    "acc_out": 87.5,
+    "summ": "25.0"
+}

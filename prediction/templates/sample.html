@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		h1 {
+			text-align: center;
+			font-size: 50px
+		   }
+		p{
+			text-align: center; 
+			position: relative;
+			padding-bottom: 50 150px
+
+		 }
+		.center{
+			margin: 0;
+  			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  		    -ms-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+  		}
+  		button{background-color: yellow;width: 200px; height: 50px;font-size: 20px;}
+  		body{background-color:blue;}
+</style>
+</head>
+    <body>
+    	 
+    	<br><br>
+    	<h1>  Flood Prediction </h1>
+    	
+   			<div class="center">
+    			<button onclick="myFunction()">PREDICTION</button>
+ 			 </div>
+		
+  
+    	<p id="demo"></p>
+    	<script>
+			function myFunction() 
+			{
+  			document.getElementById("demo").innerHTML = "The chances of flood is: {{summ}} %";
+			}
+
+		</script>
+	
+
+   
+    </body>
+</html>
